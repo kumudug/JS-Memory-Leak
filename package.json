@@ -1,0 +1,23 @@
+{
+  "name": "js-memory-leak",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kumudug/JS-Memory-Leak.git"
+  },
+  "author": "Kumudu Gunasekara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kumudug/JS-Memory-Leak/issues"
+  },
+  "homepage": "https://github.com/kumudug/JS-Memory-Leak#readme",
+  "devDependencies": {
+    "http-server": "^0.10.0"
+  }
+}
