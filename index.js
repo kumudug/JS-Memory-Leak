@@ -1,6 +1,6 @@
 ﻿var theThing = null;
 var replaceThing = function () {
-  var originalThing = theThing;
+  var originalThing = theThing; //If you comment out this line you can view in chrome dev tools [ memory allocation timeline ] the allocation is removed
   var unused = function () {
     if (originalThing) // a reference to 'originalThing'
       console.log("hi");
